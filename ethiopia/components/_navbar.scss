@@ -16,3 +16,10 @@
 		@extend %flex-layout;
 	}
 }
+
+@each $key, $val in $colors {
+	.navbar-#{$key} {
+		@extend .navbar;
+		background-color: $val;
+	}
+}
