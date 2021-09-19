@@ -5,6 +5,7 @@
 	justify-content: space-between;
 	box-sizing: border-box;
 }
+
 .navbar {
 	@extend %flex-layout;
 	padding: $base-padding $base-padding * 2;

@@ -100,6 +100,10 @@ button {
   color: #1ac886;
 }
 
+.text-hover-secondary:hover {
+  color: #1ac886;
+}
+
 .bg-secondary-light-9 {
   background-color: #e8faf3;
 }
@@ -113,6 +117,10 @@ button {
 }
 
 .text-white {
+  color: white;
+}
+
+.text-hover-white:hover {
   color: white;
 }
 
@@ -156,7 +164,7 @@ button {
   background-color: #1ac886;
 }
 
-.navbar .container, .navbar {
+.navbar .container, .navbar-secondary .container, .navbar, .navbar-secondary {
   width: 100%;
   display: flex;
   align-items: center;
@@ -164,12 +172,16 @@ button {
   box-sizing: border-box;
 }
 
-.navbar {
+.navbar, .navbar-secondary {
   padding: 0.75rem 1.5rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
-.navbar .site-title {
+.navbar .site-title, .navbar-secondary .site-title {
   font-size: 1.5rem;
+}
+
+.navbar-secondary {
+  background-color: #1ac886;
 }
 
 .p-0 {
